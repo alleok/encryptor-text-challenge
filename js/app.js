@@ -3,10 +3,10 @@ const drawFind = document.getElementById("ctn-draw");
 const ctnParagraph = document.getElementById("ctn-paragraph");
 const resultArea = document.getElementById("area-resultado");
 const ctnSecundario = document.getElementById("ctn-secundario");
+//
 let warningText;
-//
 let textToEncrypt;
-//
+
 
 // Functions - buttons
 function encryptText() {
@@ -65,15 +65,6 @@ function copyText() {
 }
 
 //Show result area
-
-/*
-function showResultArea(){
-    drawFind.classList.add("ocultar");
-    ctnParagraph.classList.add("ocultar");
-    ctnSecundario.classList.add("no-show")
-    btnCopy.classList.remove("ocultar");
-    resultArea.classList.remove("ocultar");
-}*/
 function showResultArea(show) {
   if (show) {
     drawFind.classList.add("ocultar");
