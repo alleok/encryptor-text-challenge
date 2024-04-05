@@ -23,21 +23,59 @@ function desencryptText() {
 
 //General functions
 function encrypt() {
-  textToEncrypt = textToEncrypt.replace(/e/g, "enter");
-  textToEncrypt = textToEncrypt.replace(/i/g, "imes");
-  textToEncrypt = textToEncrypt.replace(/a/g, "ai");
-  textToEncrypt = textToEncrypt.replace(/o/g, "ober");
-  textToEncrypt = textToEncrypt.replace(/u/g, "ufat");
-  resultArea.textContent = textToEncrypt;
+  const keys = {
+    "e": "enter",
+    "é": "énter",
+    "i": "imes",
+    "í": "ímes",
+    "a": "ai",
+    "á": "ái",
+    "o": "ober",
+    "ó": "óber",
+    "u": "ufat",
+    "ú": "úfat",
+    "E": "ENTER",
+    "É": "ÉNTER",
+    "I": "IMES",
+    "Í": "ÍMES",
+    "A": "AI",
+    "Á": "ÁI",
+    "O": "OBER",
+    "Ó": "ÓBER",
+    "U": "UFAT",
+    "Ú": "ÚFAT"
+  };
+
+  let text = textToEncrypt.split(/(e|é|i|í|a|á|o|ó|u|ú|E|É|I|Í|A|Á|O|Ó|U|Ú)/).map(part => keys[part] || part).join("");
+  resultArea.textContent = text;
 }
 
 function desencrypt() {
-  textToEncrypt = textToEncrypt.replace(/enter/g, "e");
-  textToEncrypt = textToEncrypt.replace(/imes/g, "i");
-  textToEncrypt = textToEncrypt.replace(/ai/g, "a");
-  textToEncrypt = textToEncrypt.replace(/ober/g, "o");
-  textToEncrypt = textToEncrypt.replace(/ufat/g, "u");
-  resultArea.textContent = textToEncrypt;
+  let keys = {
+    "enter": "e",
+    "énter": "é",
+    "imes": "i",
+    "ímes": "í",
+    "ai": "a",
+    "ái": "á",
+    "ober": "o",
+    "óber": "ó",
+    "ufat": "u",
+    "úfat": "ú",
+    "ENTER": "E",
+    "ÉNTER": "É",
+    "IMES": "I",
+    "ÍMES": "Í",
+    "AI": "A",
+    "ÁI": "Á",
+    "OBER": "O",
+    "ÓBER": "Ó",
+    "UFAT": "U",
+    "ÚFAT": "Ú"
+  };
+
+  let text = textToEncrypt.split(/(enter|énter|imes|ímes|ai|ái|ober|óber|ufat|úfat|ENTER|ÉNTER|IMES|ÍMES|AI|ÁI|OBER|ÓBER|UFAT|ÚFAT)/).map(part => keys[part] || part).join("");
+  resultArea.textContent = text;
 }
 
 function getText() {
