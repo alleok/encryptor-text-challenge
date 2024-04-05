@@ -22,8 +22,8 @@ Por ejemplo:
 - `hoberlai" => "hola"`
 
 **Futuras actualizaciones:**
-- [] Mejorar el estilo de la pagina
-- [] Hacer un tema oscuro / claro
-- [] Realizar Notificaciones de pantalla
-- [] Optimizar el codigo 
+- [ ] Mejorar el estilo de la pagina
+- [ ] Hacer un tema oscuro / claro
+- [ ] Realizar Notificaciones de pantalla
+- [ ] Optimizar el codigo 
 
