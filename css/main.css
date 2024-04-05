@@ -252,7 +252,7 @@ textarea {
   }
   .contenedor-secundario {
     height: 400px;
-    margin-left: 50px;
+    margin-left: 40px;
     width: 300px;
     font-size: 12px;
   }
@@ -293,7 +293,7 @@ textarea {
   .contenedor-secundario {
     height: 150px;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 22%;
   }
   .area-muneco {
     display: none;
