@@ -1,4 +1,4 @@
-## Aplicacion
+## Aplicacion 🟢
 El funcionamiento de esta se basa en lo siguiente:
 
 - [x] Solo cifra y descifrara palabras minusculas 
@@ -6,7 +6,7 @@ El funcionamiento de esta se basa en lo siguiente:
 - [x] Es responsive
 - [x] Incluye un boton para copiar inmediatamente el texto cifrado / descifrado
 
-## Cifrado
+## Cifrado 🔐
 
 Las "claves" de encriptación que utilizaremos son las siguientes:
 
@@ -16,12 +16,12 @@ Las "claves" de encriptación que utilizaremos son las siguientes:
 - `La letra "o" es convertida para "ober"`
 - `La letra "u" es convertida para "ufat"`
 
-Por ejemplo:
+Por ejemplo: 👋🏻
 
 - `"hola" => "hoberlai"`
 - `hoberlai" => "hola"`
 
-**Futuras actualizaciones:**
+**Futuras actualizaciones:** 🟡 
 - [ ] Mejorar el estilo de la pagina
 - [ ] Hacer un tema oscuro / claro
 - [ ] Realizar Notificaciones de pantalla
