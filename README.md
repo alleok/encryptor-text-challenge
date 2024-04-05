@@ -1,15 +1,14 @@
-## Application
+## Aplicacion
+El funcionamiento de esta se basa en lo siguiente:
 
-- [x] Filtra solo letras en minúsculas
-- [x] Encripta texto
-- [x] Desencripta texto encriptado
+- [x] Solo cifra y descifrara palabras minusculas 
+- [x] Incluye la funcion tanto de cifrar como descifrar
 - [x] Es responsive
-- [x] Tiene botón de copiar texto
-- [x] Tiene footer personalizado
+- [x] Incluye un boton para copiar inmediatamente el texto cifrado / descifrado
 
-## Reto
+## Cifrado
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+Las "claves" de encriptación que utilizaremos son las siguientes:
 
 - `La letra "e" es convertida para "enter"`
 - `La letra "i" es convertida para "imes"`
@@ -17,13 +16,14 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 - `La letra "o" es convertida para "ober"`
 - `La letra "u" es convertida para "ufat"`
 
-**Requisitos:**
-
-- Debe funcionar solo con letras minúsculas
-- No deben ser utilizados letras con acentos ni caracteres especiales
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
-
 Por ejemplo:
 
-- `"gato" => "gaitober"`
-- `gaitober" => "gato"`
+- `"hola" => "hoberlai"`
+- `hoberlai" => "hola"`
+
+**Futuras actualizaciones:**
+- [] Mejorar el estilo de la pagina
+- [] Hacer un tema oscuro / claro
+- [] Realizar Notificaciones de pantalla
+- [] Optimizar el codigo 
+
