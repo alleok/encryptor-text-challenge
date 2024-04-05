@@ -22,6 +22,7 @@ Por ejemplo: 👋🏻
 - `hoberlai" => "hola"`
 
 ## 🟡 Futuras actualizaciones:
+- [x] Funcionamiento con letras mayusculas
 - [ ] Mejorar el estilo de la pagina
 - [ ] Hacer un tema oscuro / claro
 - [ ] Realizar Notificaciones de pantalla
