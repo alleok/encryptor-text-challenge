@@ -1,4 +1,4 @@
-## Aplicacion 🟢
+## 🟢 Aplicacion 
 El funcionamiento de esta se basa en lo siguiente:
 
 - [x] Solo cifra y descifrara palabras minusculas 
@@ -21,7 +21,7 @@ Por ejemplo: 👋🏻
 - `"hola" => "hoberlai"`
 - `hoberlai" => "hola"`
 
-**Futuras actualizaciones:** 🟡 
+## 🟡 Futuras actualizaciones:
 - [ ] Mejorar el estilo de la pagina
 - [ ] Hacer un tema oscuro / claro
 - [ ] Realizar Notificaciones de pantalla
